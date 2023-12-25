@@ -1,0 +1,631 @@
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:3000
+DEBUG:urllib3.connectionpool:http://localhost:3000 "GET /posts/1 HTTP/1.1" 200 61
+INFO:root:GET request to http://localhost:3000/posts/1
+INFO:root:STATUS - 200
+INFO:root:TEXT - {
+  "id": 1,
+  "title": "hello",
+  "text": "Hello i am...."
+}
+INFO:root:JSON - {'id': 1, 'title': 'hello', 'text': 'Hello i am....'}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:3000
+DEBUG:urllib3.connectionpool:http://localhost:3000 "GET /posts/1 HTTP/1.1" 200 61
+INFO:root:GET request to http://localhost:3000/posts/1
+INFO:root:STATUS - 200
+INFO:root:TEXT - {
+  "id": 1,
+  "title": "hello",
+  "text": "Hello i am...."
+}
+INFO:root:JSON - {'id': 1, 'title': 'hello', 'text': 'Hello i am....'}
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.address`.
+DEBUG:faker.factory:Provider `faker.providers.address` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.automotive`.
+DEBUG:faker.factory:Provider `faker.providers.automotive` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.bank`.
+DEBUG:faker.factory:Specified locale `en_US` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.barcode`.
+DEBUG:faker.factory:Provider `faker.providers.barcode` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.color`.
+DEBUG:faker.factory:Provider `faker.providers.color` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.company`.
+DEBUG:faker.factory:Provider `faker.providers.company` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.credit_card`.
+DEBUG:faker.factory:Provider `faker.providers.credit_card` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.currency`.
+DEBUG:faker.factory:Provider `faker.providers.currency` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.date_time`.
+DEBUG:faker.factory:Provider `faker.providers.date_time` has been localized to `en_US`.
+DEBUG:faker.factory:Provider `faker.providers.emoji` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+DEBUG:faker.factory:Provider `faker.providers.file` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.geo`.
+DEBUG:faker.factory:Provider `faker.providers.geo` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.internet`.
+DEBUG:faker.factory:Provider `faker.providers.internet` has been localized to `en_US`.
+DEBUG:faker.factory:Provider `faker.providers.isbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.job`.
+DEBUG:faker.factory:Provider `faker.providers.job` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.lorem`.
+DEBUG:faker.factory:Provider `faker.providers.lorem` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.misc`.
+DEBUG:faker.factory:Provider `faker.providers.misc` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.passport`.
+DEBUG:faker.factory:Provider `faker.providers.passport` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.person`.
+DEBUG:faker.factory:Provider `faker.providers.person` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.phone_number`.
+DEBUG:faker.factory:Provider `faker.providers.phone_number` has been localized to `en_US`.
+DEBUG:faker.factory:Provider `faker.providers.profile` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+DEBUG:faker.factory:Provider `faker.providers.python` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+DEBUG:faker.factory:Provider `faker.providers.sbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.ssn`.
+DEBUG:faker.factory:Provider `faker.providers.ssn` has been localized to `en_US`.
+DEBUG:faker.factory:Provider `faker.providers.user_agent` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:3000
+DEBUG:urllib3.connectionpool:http://localhost:3000 "POST /posts/ HTTP/1.1" 201 242
+INFO:root:POST request to http://localhost:3000/posts/
+INFO:root:STATUS - 201
+INFO:root:TEXT - {
+  "title": "Jonathan Lamb",
+  "text": "Door oil finish there. Just town opportunity price local sea similar.\nDiscussion budget upon produce series. Skin population edge conference wait quite assume ahead. Recent tonight view.",
+  "id": 2
+}
+INFO:root:JSON - {'title': 'Jonathan Lamb', 'text': 'Door oil finish there. Just town opportunity price local sea similar.\nDiscussion budget upon produce series. Skin population edge conference wait quite assume ahead. Recent tonight view.', 'id': 2}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:3000
+DEBUG:urllib3.connectionpool:http://localhost:3000 "POST /posts/ HTTP/1.1" 201 228
+INFO:root:POST request to http://localhost:3000/posts/
+INFO:root:STATUS - 201
+INFO:root:TEXT - {
+  "title": "Monique Cole",
+  "text": "Thing seem phone training whether. Less account own inside various. Coach various represent think tell.\nHigh budget among. View article edge. Issue next exist bag them true.",
+  "id": 3
+}
+INFO:root:JSON - {'title': 'Monique Cole', 'text': 'Thing seem phone training whether. Less account own inside various. Coach various represent think tell.\nHigh budget among. View article edge. Issue next exist bag them true.', 'id': 3}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:3000
+DEBUG:urllib3.connectionpool:http://localhost:3000 "POST /posts/ HTTP/1.1" 201 143
+INFO:root:POST request to http://localhost:3000/posts/
+INFO:root:STATUS - 201
+INFO:root:TEXT - {
+  "title": "Angela Patton",
+  "text": "Sea rather move if heavy skill. Television particular power wide. Have manage wall town.",
+  "id": 4
+}
+INFO:root:JSON - {'title': 'Angela Patton', 'text': 'Sea rather move if heavy skill. Television particular power wide. Have manage wall town.', 'id': 4}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:3000
+DEBUG:urllib3.connectionpool:http://localhost:3000 "POST /posts/ HTTP/1.1" 201 235
+INFO:root:POST request to http://localhost:3000/posts/
+INFO:root:STATUS - 201
+INFO:root:TEXT - {
+  "title": "Joshua Garcia",
+  "text": "City hear summer energy fire experience. Rich hour high peace.\nPick fine feel but teacher read. Put sense might manager ten be factor.\nRange standard everything.\nVery huge like.",
+  "id": 5
+}
+INFO:root:JSON - {'title': 'Joshua Garcia', 'text': 'City hear summer energy fire experience. Rich hour high peace.\nPick fine feel but teacher read. Put sense might manager ten be factor.\nRange standard everything.\nVery huge like.', 'id': 5}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:3000
+DEBUG:urllib3.connectionpool:http://localhost:3000 "POST /posts/ HTTP/1.1" 201 146
+INFO:root:POST request to http://localhost:3000/posts/
+INFO:root:STATUS - 201
+INFO:root:TEXT - {
+  "title": "James Delgado",
+  "text": "However everyone person wonder father realize perform. Mind above certainly which city age.",
+  "id": 6
+}
+INFO:root:JSON - {'title': 'James Delgado', 'text': 'However everyone person wonder father realize perform. Mind above certainly which city age.', 'id': 6}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:3000
+DEBUG:urllib3.connectionpool:http://localhost:3000 "POST /posts/ HTTP/1.1" 201 191
+INFO:root:POST request to http://localhost:3000/posts/
+INFO:root:STATUS - 201
+INFO:root:TEXT - {
+  "title": "Jennifer Johnson",
+  "text": "Environmental season even place voice. Natural rule great forward budget Democrat pattern. Relate attention short career amount turn.",
+  "id": 7
+}
+INFO:root:JSON - {'title': 'Jennifer Johnson', 'text': 'Environmental season even place voice. Natural rule great forward budget Democrat pattern. Relate attention short career amount turn.', 'id': 7}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:3000
+DEBUG:urllib3.connectionpool:http://localhost:3000 "POST /posts/ HTTP/1.1" 201 120
+INFO:root:POST request to http://localhost:3000/posts/
+INFO:root:STATUS - 201
+INFO:root:TEXT - {
+  "title": "Kyle Snyder",
+  "text": "Perform whatever grow. Year main foot likely section beautiful box.",
+  "id": 8
+}
+INFO:root:JSON - {'title': 'Kyle Snyder', 'text': 'Perform whatever grow. Year main foot likely section beautiful box.', 'id': 8}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:3000
+DEBUG:urllib3.connectionpool:http://localhost:3000 "POST /posts/ HTTP/1.1" 201 230
+INFO:root:POST request to http://localhost:3000/posts/
+INFO:root:STATUS - 201
+INFO:root:TEXT - {
+  "title": "Brent Nguyen",
+  "text": "Exist discuss analysis career use really arrive. Wear leg take ten.\nAlready give public month. Every find rich explain control central on agent. Cut meeting great house avoid.",
+  "id": 9
+}
+INFO:root:JSON - {'title': 'Brent Nguyen', 'text': 'Exist discuss analysis career use really arrive. Wear leg take ten.\nAlready give public month. Every find rich explain control central on agent. Cut meeting great house avoid.', 'id': 9}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:3000
+DEBUG:urllib3.connectionpool:http://localhost:3000 "POST /posts/ HTTP/1.1" 201 238
+INFO:root:POST request to http://localhost:3000/posts/
+INFO:root:STATUS - 201
+INFO:root:TEXT - {
+  "title": "Evelyn Collins",
+  "text": "Statement movie far. Off traditional yeah commercial nothing Democrat. Soon represent event say.\nWhether too group activity type. Effect business sit five. Imagine democratic word.",
+  "id": 10
+}
+INFO:root:JSON - {'title': 'Evelyn Collins', 'text': 'Statement movie far. Off traditional yeah commercial nothing Democrat. Soon represent event say.\nWhether too group activity type. Effect business sit five. Imagine democratic word.', 'id': 10}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:3000
+DEBUG:urllib3.connectionpool:http://localhost:3000 "POST /posts/ HTTP/1.1" 201 172
+INFO:root:POST request to http://localhost:3000/posts/
+INFO:root:STATUS - 201
+INFO:root:TEXT - {
+  "title": "Rachel Owens",
+  "text": "Both seek authority. Might door drug thus. Ago way think style effort scientist staff. Stage magazine think question.",
+  "id": 11
+}
+INFO:root:JSON - {'title': 'Rachel Owens', 'text': 'Both seek authority. Might door drug thus. Ago way think style effort scientist staff. Stage magazine think question.', 'id': 11}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:3000
+DEBUG:urllib3.connectionpool:http://localhost:3000 "GET /posts/1 HTTP/1.1" 200 61
+INFO:root:GET request to http://localhost:3000/posts/1
+INFO:root:STATUS - 200
+INFO:root:TEXT - {
+  "id": 1,
+  "title": "hello",
+  "text": "Hello i am...."
+}
+INFO:root:JSON - {'id': 1, 'title': 'hello', 'text': 'Hello i am....'}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:3000
+DEBUG:urllib3.connectionpool:http://localhost:3000 "GET /posts/1 HTTP/1.1" 200 61
+INFO:root:GET request to http://localhost:3000/posts/1
+INFO:root:STATUS - 200
+INFO:root:TEXT - {
+  "id": 1,
+  "title": "hello",
+  "text": "Hello i am...."
+}
+INFO:root:JSON - {'id': 1, 'title': 'hello', 'text': 'Hello i am....'}
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.address`.
+DEBUG:faker.factory:Provider `faker.providers.address` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.automotive`.
+DEBUG:faker.factory:Provider `faker.providers.automotive` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.bank`.
+DEBUG:faker.factory:Specified locale `en_US` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.barcode`.
+DEBUG:faker.factory:Provider `faker.providers.barcode` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.color`.
+DEBUG:faker.factory:Provider `faker.providers.color` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.company`.
+DEBUG:faker.factory:Provider `faker.providers.company` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.credit_card`.
+DEBUG:faker.factory:Provider `faker.providers.credit_card` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.currency`.
+DEBUG:faker.factory:Provider `faker.providers.currency` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.date_time`.
+DEBUG:faker.factory:Provider `faker.providers.date_time` has been localized to `en_US`.
+DEBUG:faker.factory:Provider `faker.providers.emoji` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+DEBUG:faker.factory:Provider `faker.providers.file` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.geo`.
+DEBUG:faker.factory:Provider `faker.providers.geo` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.internet`.
+DEBUG:faker.factory:Provider `faker.providers.internet` has been localized to `en_US`.
+DEBUG:faker.factory:Provider `faker.providers.isbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.job`.
+DEBUG:faker.factory:Provider `faker.providers.job` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.lorem`.
+DEBUG:faker.factory:Provider `faker.providers.lorem` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.misc`.
+DEBUG:faker.factory:Provider `faker.providers.misc` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.passport`.
+DEBUG:faker.factory:Provider `faker.providers.passport` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.person`.
+DEBUG:faker.factory:Provider `faker.providers.person` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.phone_number`.
+DEBUG:faker.factory:Provider `faker.providers.phone_number` has been localized to `en_US`.
+DEBUG:faker.factory:Provider `faker.providers.profile` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+DEBUG:faker.factory:Provider `faker.providers.python` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+DEBUG:faker.factory:Provider `faker.providers.sbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.ssn`.
+DEBUG:faker.factory:Provider `faker.providers.ssn` has been localized to `en_US`.
+DEBUG:faker.factory:Provider `faker.providers.user_agent` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:3000
+DEBUG:urllib3.connectionpool:http://localhost:3000 "POST /users/ HTTP/1.1" 201 108
+INFO:root:POST request to http://localhost:3000/users/
+INFO:root:STATUS - 201
+INFO:root:TEXT - {
+  "title": "Robin Hodge",
+  "text": "622 Mcmillan Green Apt. 741\nPort Dawnchester, NC 26520",
+  "id": 2
+}
+INFO:root:JSON - {'title': 'Robin Hodge', 'text': '622 Mcmillan Green Apt. 741\nPort Dawnchester, NC 26520', 'id': 2}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:3000
+DEBUG:urllib3.connectionpool:http://localhost:3000 "POST /users/ HTTP/1.1" 201 106
+INFO:root:POST request to http://localhost:3000/users/
+INFO:root:STATUS - 201
+INFO:root:TEXT - {
+  "title": "Christine Bean",
+  "text": "11903 Turner Ramp Suite 111\nPaulborough, NJ 79237",
+  "id": 3
+}
+INFO:root:JSON - {'title': 'Christine Bean', 'text': '11903 Turner Ramp Suite 111\nPaulborough, NJ 79237', 'id': 3}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:3000
+DEBUG:urllib3.connectionpool:http://localhost:3000 "POST /users/ HTTP/1.1" 201 95
+INFO:root:POST request to http://localhost:3000/users/
+INFO:root:STATUS - 201
+INFO:root:TEXT - {
+  "title": "Brandy Thomas",
+  "text": "4724 John Flats\nWest Kathleen, NC 93294",
+  "id": 4
+}
+INFO:root:JSON - {'title': 'Brandy Thomas', 'text': '4724 John Flats\nWest Kathleen, NC 93294', 'id': 4}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:3000
+DEBUG:urllib3.connectionpool:http://localhost:3000 "POST /users/ HTTP/1.1" 201 107
+INFO:root:POST request to http://localhost:3000/users/
+INFO:root:STATUS - 201
+INFO:root:TEXT - {
+  "title": "Kimberly Vazquez",
+  "text": "36236 Burke Summit\nSouth Catherineberg, NH 01387",
+  "id": 5
+}
+INFO:root:JSON - {'title': 'Kimberly Vazquez', 'text': '36236 Burke Summit\nSouth Catherineberg, NH 01387', 'id': 5}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:3000
+DEBUG:urllib3.connectionpool:http://localhost:3000 "POST /users/ HTTP/1.1" 201 106
+INFO:root:POST request to http://localhost:3000/users/
+INFO:root:STATUS - 201
+INFO:root:TEXT - {
+  "title": "Robert Frazier",
+  "text": "77621 Collins Corners\nPort Brandonmouth, PR 16750",
+  "id": 6
+}
+INFO:root:JSON - {'title': 'Robert Frazier', 'text': '77621 Collins Corners\nPort Brandonmouth, PR 16750', 'id': 6}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:3000
+DEBUG:urllib3.connectionpool:http://localhost:3000 "POST /users/ HTTP/1.1" 201 103
+INFO:root:POST request to http://localhost:3000/users/
+INFO:root:STATUS - 201
+INFO:root:TEXT - {
+  "title": "Christopher Hayes",
+  "text": "787 Nathaniel Circle\nMorrisonberg, VA 16675",
+  "id": 7
+}
+INFO:root:JSON - {'title': 'Christopher Hayes', 'text': '787 Nathaniel Circle\nMorrisonberg, VA 16675', 'id': 7}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:3000
+DEBUG:urllib3.connectionpool:http://localhost:3000 "POST /users/ HTTP/1.1" 201 106
+INFO:root:POST request to http://localhost:3000/users/
+INFO:root:STATUS - 201
+INFO:root:TEXT - {
+  "title": "Amber Jones",
+  "text": "05555 Randolph Crescent\nEast Joshuachester, OK 88060",
+  "id": 8
+}
+INFO:root:JSON - {'title': 'Amber Jones', 'text': '05555 Randolph Crescent\nEast Joshuachester, OK 88060', 'id': 8}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:3000
+DEBUG:urllib3.connectionpool:http://localhost:3000 "POST /users/ HTTP/1.1" 201 97
+INFO:root:POST request to http://localhost:3000/users/
+INFO:root:STATUS - 201
+INFO:root:TEXT - {
+  "title": "Joseph Kaufman",
+  "text": "10877 Martin Divide\nRobertbury, NE 93048",
+  "id": 9
+}
+INFO:root:JSON - {'title': 'Joseph Kaufman', 'text': '10877 Martin Divide\nRobertbury, NE 93048', 'id': 9}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:3000
+DEBUG:urllib3.connectionpool:http://localhost:3000 "POST /users/ HTTP/1.1" 201 112
+INFO:root:POST request to http://localhost:3000/users/
+INFO:root:STATUS - 201
+INFO:root:TEXT - {
+  "title": "Mark Kline",
+  "text": "4614 Cameron Garden Suite 895\nLake Meredithville, PW 66843",
+  "id": 10
+}
+INFO:root:JSON - {'title': 'Mark Kline', 'text': '4614 Cameron Garden Suite 895\nLake Meredithville, PW 66843', 'id': 10}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:3000
+DEBUG:urllib3.connectionpool:http://localhost:3000 "POST /users/ HTTP/1.1" 201 100
+INFO:root:POST request to http://localhost:3000/users/
+INFO:root:STATUS - 201
+INFO:root:TEXT - {
+  "title": "Mary Schultz",
+  "text": "1264 Figueroa Throughway\nKeithview, UT 57020",
+  "id": 11
+}
+INFO:root:JSON - {'title': 'Mary Schultz', 'text': '1264 Figueroa Throughway\nKeithview, UT 57020', 'id': 11}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:3000
+DEBUG:urllib3.connectionpool:http://localhost:3000 "GET /posts/1 HTTP/1.1" 200 61
+INFO:root:GET request to http://localhost:3000/posts/1
+INFO:root:STATUS - 200
+INFO:root:TEXT - {
+  "id": 1,
+  "title": "hello",
+  "text": "Hello i am...."
+}
+INFO:root:JSON - {'id': 1, 'title': 'hello', 'text': 'Hello i am....'}
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.address`.
+DEBUG:faker.factory:Provider `faker.providers.address` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.automotive`.
+DEBUG:faker.factory:Provider `faker.providers.automotive` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.bank`.
+DEBUG:faker.factory:Specified locale `en_US` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.barcode`.
+DEBUG:faker.factory:Provider `faker.providers.barcode` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.color`.
+DEBUG:faker.factory:Provider `faker.providers.color` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.company`.
+DEBUG:faker.factory:Provider `faker.providers.company` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.credit_card`.
+DEBUG:faker.factory:Provider `faker.providers.credit_card` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.currency`.
+DEBUG:faker.factory:Provider `faker.providers.currency` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.date_time`.
+DEBUG:faker.factory:Provider `faker.providers.date_time` has been localized to `en_US`.
+DEBUG:faker.factory:Provider `faker.providers.emoji` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+DEBUG:faker.factory:Provider `faker.providers.file` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.geo`.
+DEBUG:faker.factory:Provider `faker.providers.geo` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.internet`.
+DEBUG:faker.factory:Provider `faker.providers.internet` has been localized to `en_US`.
+DEBUG:faker.factory:Provider `faker.providers.isbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.job`.
+DEBUG:faker.factory:Provider `faker.providers.job` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.lorem`.
+DEBUG:faker.factory:Provider `faker.providers.lorem` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.misc`.
+DEBUG:faker.factory:Provider `faker.providers.misc` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.passport`.
+DEBUG:faker.factory:Provider `faker.providers.passport` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.person`.
+DEBUG:faker.factory:Provider `faker.providers.person` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.phone_number`.
+DEBUG:faker.factory:Provider `faker.providers.phone_number` has been localized to `en_US`.
+DEBUG:faker.factory:Provider `faker.providers.profile` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+DEBUG:faker.factory:Provider `faker.providers.python` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+DEBUG:faker.factory:Provider `faker.providers.sbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.ssn`.
+DEBUG:faker.factory:Provider `faker.providers.ssn` has been localized to `en_US`.
+DEBUG:faker.factory:Provider `faker.providers.user_agent` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:3000
+DEBUG:urllib3.connectionpool:http://localhost:3000 "POST /comments/ HTTP/1.1" 201 171
+INFO:root:POST request to http://localhost:3000/comments/
+INFO:root:STATUS - 201
+INFO:root:TEXT - {
+  "title": "Sheena Smith",
+  "text": "Ever financial create close these Mr. Any business professional. Plant research avoid as everyone special type while.",
+  "id": 2
+}
+INFO:root:JSON - {'title': 'Sheena Smith', 'text': 'Ever financial create close these Mr. Any business professional. Plant research avoid as everyone special type while.', 'id': 2}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:3000
+DEBUG:urllib3.connectionpool:http://localhost:3000 "POST /comments/ HTTP/1.1" 201 239
+INFO:root:POST request to http://localhost:3000/comments/
+INFO:root:STATUS - 201
+INFO:root:TEXT - {
+  "title": "Victoria Schultz",
+  "text": "Term race small address camera upon hundred. Out company keep choice. Century each character human probably surface.\nPhone property us writer. Once attention ask board large white.",
+  "id": 3
+}
+INFO:root:JSON - {'title': 'Victoria Schultz', 'text': 'Term race small address camera upon hundred. Out company keep choice. Century each character human probably surface.\nPhone property us writer. Once attention ask board large white.', 'id': 3}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:3000
+DEBUG:urllib3.connectionpool:http://localhost:3000 "POST /comments/ HTTP/1.1" 201 255
+INFO:root:POST request to http://localhost:3000/comments/
+INFO:root:STATUS - 201
+INFO:root:TEXT - {
+  "title": "Robin Roberts",
+  "text": "Article along body. Avoid where message possible task.\nManager fast quality recent. Face girl sea final.\nLight court process.\nBehind he staff control message. Consider space throw truth tax likely.",
+  "id": 4
+}
+INFO:root:JSON - {'title': 'Robin Roberts', 'text': 'Article along body. Avoid where message possible task.\nManager fast quality recent. Face girl sea final.\nLight court process.\nBehind he staff control message. Consider space throw truth tax likely.', 'id': 4}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:3000
+DEBUG:urllib3.connectionpool:http://localhost:3000 "POST /comments/ HTTP/1.1" 201 214
+INFO:root:POST request to http://localhost:3000/comments/
+INFO:root:STATUS - 201
+INFO:root:TEXT - {
+  "title": "Michael Thomas",
+  "text": "Fly before have spring off pattern gun reveal. South morning visit star claim amount. Food should staff.\nDream point sense eat wide. Seek place wife machine.",
+  "id": 5
+}
+INFO:root:JSON - {'title': 'Michael Thomas', 'text': 'Fly before have spring off pattern gun reveal. South morning visit star claim amount. Food should staff.\nDream point sense eat wide. Seek place wife machine.', 'id': 5}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:3000
+DEBUG:urllib3.connectionpool:http://localhost:3000 "POST /comments/ HTTP/1.1" 201 202
+INFO:root:POST request to http://localhost:3000/comments/
+INFO:root:STATUS - 201
+INFO:root:TEXT - {
+  "title": "Mark Carroll",
+  "text": "Either company scientist suffer represent answer several ready. Year effect compare marriage reach run husband. House wide method take team picture.",
+  "id": 6
+}
+INFO:root:JSON - {'title': 'Mark Carroll', 'text': 'Either company scientist suffer represent answer several ready. Year effect compare marriage reach run husband. House wide method take team picture.', 'id': 6}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:3000
+DEBUG:urllib3.connectionpool:http://localhost:3000 "POST /comments/ HTTP/1.1" 201 234
+INFO:root:POST request to http://localhost:3000/comments/
+INFO:root:STATUS - 201
+INFO:root:TEXT - {
+  "title": "Lauren Jackson",
+  "text": "Feeling along book history pick present. Effect generation apply store tell man five.\nThing heart their that budget least dream. Order his collection board exist test laugh sit.",
+  "id": 7
+}
+INFO:root:JSON - {'title': 'Lauren Jackson', 'text': 'Feeling along book history pick present. Effect generation apply store tell man five.\nThing heart their that budget least dream. Order his collection board exist test laugh sit.', 'id': 7}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:3000
+DEBUG:urllib3.connectionpool:http://localhost:3000 "POST /comments/ HTTP/1.1" 201 201
+INFO:root:POST request to http://localhost:3000/comments/
+INFO:root:STATUS - 201
+INFO:root:TEXT - {
+  "title": "Jared Lee",
+  "text": "Want Republican through bag whose officer. Attack many thing number sing shoulder. Idea early move political gun sell. While person type compare fund.",
+  "id": 8
+}
+INFO:root:JSON - {'title': 'Jared Lee', 'text': 'Want Republican through bag whose officer. Attack many thing number sing shoulder. Idea early move political gun sell. While person type compare fund.', 'id': 8}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:3000
+DEBUG:urllib3.connectionpool:http://localhost:3000 "POST /comments/ HTTP/1.1" 201 113
+INFO:root:POST request to http://localhost:3000/comments/
+INFO:root:STATUS - 201
+INFO:root:TEXT - {
+  "title": "Jennifer Wise",
+  "text": "Sense reason choice. Season could recent box evening high.",
+  "id": 9
+}
+INFO:root:JSON - {'title': 'Jennifer Wise', 'text': 'Sense reason choice. Season could recent box evening high.', 'id': 9}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:3000
+DEBUG:urllib3.connectionpool:http://localhost:3000 "POST /comments/ HTTP/1.1" 201 214
+INFO:root:POST request to http://localhost:3000/comments/
+INFO:root:STATUS - 201
+INFO:root:TEXT - {
+  "title": "Lori Thompson",
+  "text": "Want girl involve claim. Spring thank collection reality. First speak argue face chance ahead.\nData law move say. Keep apply agency analysis able tell level.",
+  "id": 10
+}
+INFO:root:JSON - {'title': 'Lori Thompson', 'text': 'Want girl involve claim. Spring thank collection reality. First speak argue face chance ahead.\nData law move say. Keep apply agency analysis able tell level.', 'id': 10}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:3000
+DEBUG:urllib3.connectionpool:http://localhost:3000 "POST /comments/ HTTP/1.1" 201 156
+INFO:root:POST request to http://localhost:3000/comments/
+INFO:root:STATUS - 201
+INFO:root:TEXT - {
+  "title": "Veronica Brown",
+  "text": "Father party whom might Congress focus machine go. Indicate her discussion address anyone consumer.",
+  "id": 11
+}
+INFO:root:JSON - {'title': 'Veronica Brown', 'text': 'Father party whom might Congress focus machine go. Indicate her discussion address anyone consumer.', 'id': 11}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:3000
+DEBUG:urllib3.connectionpool:http://localhost:3000 "GET /posts/1 HTTP/1.1" 200 61
+INFO:root:GET request to http://localhost:3000/posts/1
+INFO:root:STATUS - 200
+INFO:root:TEXT - {
+  "id": 1,
+  "title": "hello",
+  "text": "Hello i am...."
+}
+INFO:root:JSON - {'id': 1, 'title': 'hello', 'text': 'Hello i am....'}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:3000
+DEBUG:urllib3.connectionpool:http://localhost:3000 "GET /users/ HTTP/1.1" 200 None
+INFO:root:GET request to http://localhost:3000/users/
+INFO:root:STATUS - 200
+INFO:root:TEXT - [
+  {
+    "id": 1,
+    "name": "imechko)",
+    "adress": "moskva"
+  },
+  {
+    "title": "Robin Hodge",
+    "text": "622 Mcmillan Green Apt. 741\nPort Dawnchester, NC 26520",
+    "id": 2
+  },
+  {
+    "title": "Christine Bean",
+    "text": "11903 Turner Ramp Suite 111\nPaulborough, NJ 79237",
+    "id": 3
+  },
+  {
+    "title": "Brandy Thomas",
+    "text": "4724 John Flats\nWest Kathleen, NC 93294",
+    "id": 4
+  },
+  {
+    "title": "Kimberly Vazquez",
+    "text": "36236 Burke Summit\nSouth Catherineberg, NH 01387",
+    "id": 5
+  },
+  {
+    "title": "Robert Frazier",
+    "text": "77621 Collins Corners\nPort Brandonmouth, PR 16750",
+    "id": 6
+  },
+  {
+    "title": "Christopher Hayes",
+    "text": "787 Nathaniel Circle\nMorrisonberg, VA 16675",
+    "id": 7
+  },
+  {
+    "title": "Amber Jones",
+    "text": "05555 Randolph Crescent\nEast Joshuachester, OK 88060",
+    "id": 8
+  },
+  {
+    "title": "Joseph Kaufman",
+    "text": "10877 Martin Divide\nRobertbury, NE 93048",
+    "id": 9
+  },
+  {
+    "title": "Mark Kline",
+    "text": "4614 Cameron Garden Suite 895\nLake Meredithville, PW 66843",
+    "id": 10
+  },
+  {
+    "title": "Mary Schultz",
+    "text": "1264 Figueroa Throughway\nKeithview, UT 57020",
+    "id": 11
+  }
+]
+INFO:root:JSON - [{'id': 1, 'name': 'imechko)', 'adress': 'moskva'}, {'title': 'Robin Hodge', 'text': '622 Mcmillan Green Apt. 741\nPort Dawnchester, NC 26520', 'id': 2}, {'title': 'Christine Bean', 'text': '11903 Turner Ramp Suite 111\nPaulborough, NJ 79237', 'id': 3}, {'title': 'Brandy Thomas', 'text': '4724 John Flats\nWest Kathleen, NC 93294', 'id': 4}, {'title': 'Kimberly Vazquez', 'text': '36236 Burke Summit\nSouth Catherineberg, NH 01387', 'id': 5}, {'title': 'Robert Frazier', 'text': '77621 Collins Corners\nPort Brandonmouth, PR 16750', 'id': 6}, {'title': 'Christopher Hayes', 'text': '787 Nathaniel Circle\nMorrisonberg, VA 16675', 'id': 7}, {'title': 'Amber Jones', 'text': '05555 Randolph Crescent\nEast Joshuachester, OK 88060', 'id': 8}, {'title': 'Joseph Kaufman', 'text': '10877 Martin Divide\nRobertbury, NE 93048', 'id': 9}, {'title': 'Mark Kline', 'text': '4614 Cameron Garden Suite 895\nLake Meredithville, PW 66843', 'id': 10}, {'title': 'Mary Schultz', 'text': '1264 Figueroa Throughway\nKeithview, UT 57020', 'id': 11}]
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:3000
+DEBUG:urllib3.connectionpool:http://localhost:3000 "GET /posts/1 HTTP/1.1" 200 61
+INFO:root:GET request to http://localhost:3000/posts/1
+INFO:root:STATUS - 200
+INFO:root:TEXT - {
+  "id": 1,
+  "title": "hello",
+  "text": "Hello i am...."
+}
+INFO:root:JSON - {'id': 1, 'title': 'hello', 'text': 'Hello i am....'}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:3000
+DEBUG:urllib3.connectionpool:http://localhost:3000 "GET /users/ HTTP/1.1" 200 None
+INFO:root:GET request to http://localhost:3000/users/
+INFO:root:STATUS - 200
+INFO:root:TEXT - [
+  {
+    "name": "Petya",
+    "id": 1
+  },
+  {
+    "name": "Brandon Morris",
+    "text": "Standard pull why store.\nSeat fight car table. Talk whether voice sport sort book. Also majority player most significant value foreign.",
+    "id": 2
+  },
+  {
+    "name": "Angela Mosley",
+    "text": "Foot old small season. Support little political various back matter. Young feel audience friend southern.",
+    "id": 3
+  },
+  {
+    "name": "Ms. April Rasmussen",
+    "text": "Natural protect stage week before more. Spring few former late any price list.\nBehind few yet hear site. Fill successful other name.",
+    "id": 4
+  },
+  {
+    "name": "Michael Johnson",
+    "text": "Season pull me role.\nLawyer black wife training.\nA song size particular tax know. Wide just radio Mr former.",
+    "id": 5
+  },
+  {
+    "name": "Patricia Garrett",
+    "text": "Cost agency tough itself. List air age man weight. Several type it maybe campaign.\nMother social become five memory. Watch machine land nearly. Position line risk look window professional old.",
+    "id": 6
+  },
+  {
+    "name": "Brooke Porter",
+    "text": "Wait sure instead our suddenly someone. Society contain where dark couple million happy. Yet move economic decision good stage attack card.",
+    "id": 7
+  },
+  {
+    "name": "Anna Green",
+    "text": "Ahead couple seat political. Him argue standard east while give. Phone fly industry chance.",
+    "id": 8
+  },
+  {
+    "name": "Dawn Rogers",
+    "text": "Fish really future building drop method building. Throw imagine several always could should. Subject hear sport fast young.\nGirl foot future service. Particular city toward page.",
+    "id": 9
+  },
+  {
+    "name": "Jasmine Johnson",
+    "text": "Fight Democrat rate seem. Peace happen time loss drop break support. Fire home yes both organization baby.\nGround a range level film effort black. Ask evening budget cultural approach authority.",
+    "id": 10
+  },
+  {
+    "name": "Elizabeth Sutton",
+    "text": "Into quite require response character everything. Describe whom window because.\nSound south single society. Tell forget head agent read spring contain.",
+    "id": 11
+  }
+]
+INFO:root:JSON - [{'name': 'Petya', 'id': 1}, {'name': 'Brandon Morris', 'text': 'Standard pull why store.\nSeat fight car table. Talk whether voice sport sort book. Also majority player most significant value foreign.', 'id': 2}, {'name': 'Angela Mosley', 'text': 'Foot old small season. Support little political various back matter. Young feel audience friend southern.', 'id': 3}, {'name': 'Ms. April Rasmussen', 'text': 'Natural protect stage week before more. Spring few former late any price list.\nBehind few yet hear site. Fill successful other name.', 'id': 4}, {'name': 'Michael Johnson', 'text': 'Season pull me role.\nLawyer black wife training.\nA song size particular tax know. Wide just radio Mr former.', 'id': 5}, {'name': 'Patricia Garrett', 'text': 'Cost agency tough itself. List air age man weight. Several type it maybe campaign.\nMother social become five memory. Watch machine land nearly. Position line risk look window professional old.', 'id': 6}, {'name': 'Brooke Porter', 'text': 'Wait sure instead our suddenly someone. Society contain where dark couple million happy. Yet move economic decision good stage attack card.', 'id': 7}, {'name': 'Anna Green', 'text': 'Ahead couple seat political. Him argue standard east while give. Phone fly industry chance.', 'id': 8}, {'name': 'Dawn Rogers', 'text': 'Fish really future building drop method building. Throw imagine several always could should. Subject hear sport fast young.\nGirl foot future service. Particular city toward page.', 'id': 9}, {'name': 'Jasmine Johnson', 'text': 'Fight Democrat rate seem. Peace happen time loss drop break support. Fire home yes both organization baby.\nGround a range level film effort black. Ask evening budget cultural approach authority.', 'id': 10}, {'name': 'Elizabeth Sutton', 'text': 'Into quite require response character everything. Describe whom window because.\nSound south single society. Tell forget head agent read spring contain.', 'id': 11}]
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:3000
+DEBUG:urllib3.connectionpool:http://localhost:3000 "PUT /users/1 HTTP/1.1" 200 32
+INFO:root:PUT request to http://localhost:3000/users/1
+INFO:root:STATUS - 200
+INFO:root:TEXT - {
+  "name": "Petya",
+  "id": 1
+}
+INFO:root:JSON - {'name': 'Petya', 'id': 1}
